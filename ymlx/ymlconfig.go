@@ -3,11 +3,11 @@ package ymlx
 import (
 	"errors"
 	"fmt"
+	"github.com/Fighting2520/go-common/container"
 	"io"
 	"log"
 	"time"
 
-	"github.com/Fighting2520/go-common/common/container"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
 )
